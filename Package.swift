@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "NHN Cloud SDK",
+    platforms: [
+        .iOS(.v14)
+    ],
     products: [
         .library(
             name: "NHNCloudSDK",
